@@ -16,8 +16,7 @@ document.getElementById('humanBody').addEventListener('click', function (event) 
     selectedDisease = "Boşaltım Sistemi Hastalıkları";
     document.getElementById('titleArea').style.display='none';
   }
-  else if ((x >= 30 && x <= 35 && y >= 22 && y <= 28) || (x >= 67 && x <= 73 && y >= 22 && y <= 28)
-    || (x >= 47 && x <= 49 && y >= 26 && y <= 29) || (x >= 39 && x <= 61 && y >= 37 && y <= 47)) {
+  else if ((x >= 47 && x <= 49 && y >= 26 && y <= 29) || (x >= 39 && x <= 61 && y >= 37 && y <= 47)) {
     hideResult();
     selectedDisease = "Kulak Burun Boğaz Hastalıkları";
     document.getElementById('titleArea').style.display='none';
