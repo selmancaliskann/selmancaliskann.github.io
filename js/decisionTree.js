@@ -43,7 +43,12 @@ const decisionTree = {
           }
         }
       },
-      "Hayır": "Kabızlık"
+      "Hayır": {
+      "İdrara çıkamama durumu var mı ?": {
+        "Evet": "Kabızlık",
+        "Hayır": "Doktora başvurmalısınız"
+      }
+    }
     },
     "Hayır": {
       "İdrara çıkamama durumu var mı ?": {
